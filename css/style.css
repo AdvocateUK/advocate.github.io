@@ -124,3 +124,67 @@ footer {
 .backlink a:hover {
   text-decoration: underline;
 }
+
+/* ==== INR Mate Dark Theme ==== */
+body.dark {
+  background: linear-gradient(180deg, #0d0f11 0%, #16191d 100%);
+  color: #f5f5f5;
+}
+
+body.dark .subtitle {
+  color: #a7b4b8;
+}
+
+body.dark .cta.store {
+  background: #f5d547;
+  color: #111;
+  box-shadow: 0 4px 14px rgba(245, 213, 71, 0.3);
+}
+body.dark .cta.store:hover {
+  background: #f7df66;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 6vh auto 8vh;
+  max-width: 800px;
+}
+.feature {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 1.5rem;
+  flex: 1 1 220px;
+  min-width: 200px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.feature:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-3px);
+}
+.feature .emoji {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.feature h3 {
+  color: #f5d547;
+  margin-bottom: 0.4rem;
+}
+.feature p {
+  color: #cdd4d7;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+body.dark footer {
+  color: #888;
+}
+body.dark .backlink {
+  color: #00b19a;
+}
+body.dark .backlink:hover {
+  text-decoration: underline;
+}
