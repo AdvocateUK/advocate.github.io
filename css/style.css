@@ -42,7 +42,7 @@ header {
 
 .tagline {
   font-family: "Manrope", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--muted);
   margin: 0.3rem 0 3rem 0;
   text-align: right;       /* aligns text to the right edge */
