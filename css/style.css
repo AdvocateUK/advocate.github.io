@@ -1,0 +1,126 @@
+/* ---- Base ---- */
+:root {
+  --accent: #009688;
+  --bg: #f9fafb;
+  --text: #111;
+  --muted: #555;
+  --radius: 16px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  text-align: center;
+}
+
+/* Smooth fade on load */
+.fade-in {
+  opacity: 0;
+  animation: fade 0.8s ease forwards;
+}
+@keyframes fade { to { opacity: 1; } }
+
+/* ---- oddfruit page ---- */
+.hero {
+  margin-top: 20vh;
+}
+.logo {
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+}
+.tagline {
+  color: var(--muted);
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.apps {
+  margin: 10vh auto 8vh;
+  display: flex;
+  justify-content: center;
+}
+.app-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  background: #fff;
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.app-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+.app-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 20%;
+}
+.app-info h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.app-info p {
+  color: var(--muted);
+  margin: 0.25rem 0 0;
+}
+
+footer {
+  margin-bottom: 3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* ---- INR Mate page ---- */
+.app-hero {
+  margin-top: 15vh;
+}
+.app-icon-large {
+  width: 120px;
+  height: 120px;
+  border-radius: 24%;
+  margin-bottom: 1rem;
+}
+.subtitle {
+  color: var(--muted);
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.cta {
+  display: inline-block;
+  margin-top: 2rem;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.9rem 1.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.25s ease;
+}
+.cta:hover {
+  background: #00b19a;
+}
+.backlink {
+  margin-top: 2rem;
+}
+.backlink a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.backlink a:hover {
+  text-decoration: underline;
+}
