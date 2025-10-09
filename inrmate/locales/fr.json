@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "INR Mate"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "privacy": "Confidentialité",
+    "support": "Assistance"
+  },
+  "hero": {
+    "kicker": "Confidentialité dès la conception",
+    "title": "Suivez l’INR et gérez la dose de warfarine — sur votre appareil.",
+    "lead": "INR Mate garde vos données sur votre iPhone. Pas de compte, pas de cloud et aucun suivi. Configurez des rappels locaux, enregistrez vos résultats INR et exportez en PDF/CSV pour les partager si besoin."
+  },
+  "cta": {
+    "app_store": "App Store (bientôt)",
+    "privacy": "Lire la politique de confidentialité"
+  },
+  "note": {
+    "contact": "Des questions ? Écrivez à support@oddfruit.dev"
+  },
+  "features": {
+    "kicker": "Fonctionnalités",
+    "i1": {
+      "title": "Confidentialité sur l’appareil",
+      "desc": "Tout reste sur votre iPhone. Nous ne collectons pas vos données."
+    },
+    "i2": {
+      "title": "Rappels locaux",
+      "desc": "Planifiez des rappels via les notifications iOS — sans push ni compte."
+    },
+    "i3": {
+      "title": "Journal INR & tendances",
+      "desc": "Enregistrez vos INR et visualisez les tendances dans votre plage cible."
+    },
+    "i4": {
+      "title": "Dosage flexible",
+      "desc": "Schémas fixes, alternés ou hebdomadaires avec modifications manuelles."
+    },
+    "i5": {
+      "title": "Exporter au besoin",
+      "desc": "Créez des résumés PDF/CSV à partager avec votre équipe soignante."
+    },
+    "i6": {
+      "title": "App Santé (optionnel)",
+      "desc": "Intégration HealthKit si vous le souhaitez — avec autorisations explicites."
+    }
+  },
+  "footer": {
+    "copy": "© {{year}} oddfruit —"
+  },
+  "privacy": {
+    "summary": {
+      "title": "Confidentialité en bref",
+      "data": "Données collectées par le développeur : Aucune.",
+      "accounts": "Comptes/Connexions : Aucun.",
+      "tracking": "Suivi/Publicité : Aucun.",
+      "analytics": "Analyse/Rapports de plantage : Rien n’est envoyé (Apple peut fournir des diagnostics agrégés si vous l’avez accepté).",
+      "storage": "Où sont vos données : Sur votre appareil. iCloud/Santé relèvent des politiques d’Apple.",
+      "notifications": "Notifications : Rappels locaux sur l’appareil. Pas de push à distance ni de jetons.",
+      "note": "Cette traduction est fournie pour votre confort. La version officielle est en anglais ci‑dessous."
+    },
+    "download_pdf": "Télécharger la politique en PDF"
+  }
+}

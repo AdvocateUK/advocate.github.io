@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "INR Mate"
+  },
+  "nav": {
+    "features": "Karatteristiċi",
+    "privacy": "Privatezza",
+    "support": "Appoġġ"
+  },
+  "hero": {
+    "kicker": "Privatezza mid-disinn",
+    "title": "Segwi l‑INR u immaniġġja d‑dożaġġ tal‑warfarin — fuq it‑tagħmir tiegħek.",
+    "lead": "INR Mate iżomm id‑dejta tiegħek fuq l‑iPhone tiegħek. L‑ebda kontijiet, l‑ebda cloud u l‑ebda traċċar. Issettja tfakkiriet lokali, irreġistra riżultati INR u esporta PDF/CSV meta jkollok bżonn taqsam."
+  },
+  "cta": {
+    "app_store": "App Store (dalwaqt)",
+    "privacy": "Aqra l‑Politika tal‑Privatezza"
+  },
+  "note": {
+    "contact": "Mistoqsijiet? support@oddfruit.dev"
+  },
+  "features": {
+    "kicker": "Karatteristiċi",
+    "i1": {
+      "title": "Privatezza fuq l‑apparat",
+      "desc": "Kollox jibqa’ fuq l‑iPhone tiegħek. Ma niġbrux id‑dejta tiegħek."
+    },
+    "i2": {
+      "title": "Tfakkiriet lokali",
+      "desc": "Tfakkiriet tad‑doża b’notifikazzjonijiet iOS — l‑ebda push, l‑ebda kontijiet."
+    },
+    "i3": {
+      "title": "Reġistru INR u xejriet",
+      "desc": "Irreġistra qari INR u ara x‑xejriet fil‑firxa fil‑mira tiegħek."
+    },
+    "i4": {
+      "title": "Dożaġġ flessibbli",
+      "desc": "Skedi fissi, alternanti jew top‑up kull ġimgħa b’bidliet manwali."
+    },
+    "i5": {
+      "title": "Esportazzjoni meta jkun hemm bżonn",
+      "desc": "Oħloq sommarji PDF/CSV biex taqsam mat‑tim mediku tiegħek."
+    },
+    "i6": {
+      "title": "App Saħħa (optional)",
+      "desc": "Integrazzjoni ma’ HealthKit jekk trid — b’permessi espliċiti."
+    }
+  },
+  "footer": {
+    "copy": "© {{year}} oddfruit —"
+  },
+  "privacy": {
+    "summary": {
+      "title": "Privatezza fil‑qosor",
+      "data": "Dejta miġbura mill‑iżviluppatur: Xejn.",
+      "accounts": "Kontijiet/Illoggjar: Xejn.",
+      "tracking": "Traċċar/Reklamar: Xejn.",
+      "analytics": "Analitika/Rapporti ta’ crash: Xejn jintbagħat (Apple tista’ tipprovdi dijanjostika aggregata bil‑kunsens tiegħek).",
+      "storage": "Fejn tgħix id‑dejta: Fuq it‑tagħmir tiegħek. iCloud/Saħħa huma soġġetti għall‑politiki ta’ Apple.",
+      "notifications": "Notifiki: Tfakkiriet lokali biss fuq l‑apparat. L‑ebda push remot u l‑ebda tokens.",
+      "note": "Din it‑traduzzjoni hija għal konvenjenza biss. Il‑verżjoni uffiċjali hija bl‑Ingliż hawn taħt."
+    },
+    "download_pdf": "Niżżel il‑politika f’PDF"
+  }
+}

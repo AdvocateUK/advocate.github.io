@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "INR Mate"
+  },
+  "nav": {
+    "features": "Funktsioonid",
+    "privacy": "Privaatsus",
+    "support": "Tugi"
+  },
+  "hero": {
+    "kicker": "Privaatsus disainist lähtuvalt",
+    "title": "Jälgi INR‑i ja halda varfariini annust — oma seadmes.",
+    "lead": "INR Mate hoiab sinu andmed sinu iPhone’is. Pole kontosid, pole pilvesünkroniseerimist ega jälgimist. Sea kohalikud meeldetuletused, logi INR‑tulemused ja ekspordi PDF/CSV, kui on vaja jagada."
+  },
+  "cta": {
+    "app_store": "App Store (varsti)",
+    "privacy": "Loe privaatsuspoliitikat"
+  },
+  "note": {
+    "contact": "Küsimused? support@oddfruit.dev"
+  },
+  "features": {
+    "kicker": "Funktsioonid",
+    "i1": {
+      "title": "Privaatsus seadmes",
+      "desc": "Kõik jääb sinu iPhone’i. Me ei kogu sinu andmeid."
+    },
+    "i2": {
+      "title": "Kohalikud meeldetuletused",
+      "desc": "Annuse meeldetuletused iOS‑i märguannetega — ilma pushita ja kontodeta."
+    },
+    "i3": {
+      "title": "INR‑logi ja trendid",
+      "desc": "Salvesta INR‑mõõtmised ja vaata trende sihtvahemikus."
+    },
+    "i4": {
+      "title": "Paindlik doseerimine",
+      "desc": "Fikseeritud, vahelduv või iganädalane lisadoos käsitsi muudatustega."
+    },
+    "i5": {
+      "title": "Ekspordi vajadusel",
+      "desc": "Loo PDF/CSV kokkuvõtted oma hooldusmeeskonnaga jagamiseks."
+    },
+    "i6": {
+      "title": "Terviseäpp (valikuline)",
+      "desc": "HealthKit’i integratsioon, kui soovid — selgesõnaliste õigustega."
+    }
+  },
+  "footer": {
+    "copy": "© {{year}} oddfruit —"
+  },
+  "privacy": {
+    "summary": {
+      "title": "Privaatsus lühidalt",
+      "data": "Arendaja kogutavad andmed: Puuduvad.",
+      "accounts": "Kontod/Sisselogimine: Puuduvad.",
+      "tracking": "Jälgimine/Reklaam: Puudub.",
+      "analytics": "Analüütika/Kokkekukkumise aruanded: Me ei saada midagi (Apple võib pakkuda koonddiagnostikat, kui oled nõustunud).",
+      "storage": "Kus su andmed asuvad: Sinu seadmes. iCloud/Tervis alluvad Apple’i poliitikatele.",
+      "notifications": "Teavitused: Ainult kohalikud meeldetuletused seadmes. Ei mingit kaug‑pushi ega tokeneid.",
+      "note": "See tõlge on ainult abiks. Ametlik versioon on all inglise keeles."
+    },
+    "download_pdf": "Laadi poliitika PDF‑ina"
+  }
+}

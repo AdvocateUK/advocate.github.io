@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "INR Mate"
+  },
+  "nav": {
+    "features": "Functies",
+    "privacy": "Privacy",
+    "support": "Support"
+  },
+  "hero": {
+    "kicker": "Privacy by design",
+    "title": "Houd INR bij en beheer de warfarinedosering — op je apparaat.",
+    "lead": "INR Mate bewaart je gegevens op je iPhone. Geen accounts, geen cloud‑sync en geen tracking. Stel lokale herinneringen in, registreer INR‑waarden en exporteer PDF/CSV wanneer je wilt delen."
+  },
+  "cta": {
+    "app_store": "App Store (binnenkort)",
+    "privacy": "Lees het privacybeleid"
+  },
+  "note": {
+    "contact": "Vragen? Mail naar support@oddfruit.dev"
+  },
+  "features": {
+    "kicker": "Functies",
+    "i1": {
+      "title": "Privacy op het apparaat",
+      "desc": "Alles blijft op je iPhone. We verzamelen je gegevens niet."
+    },
+    "i2": {
+      "title": "Lokale herinneringen",
+      "desc": "Dosisherinneringen via iOS‑meldingen — geen push, geen accounts."
+    },
+    "i3": {
+      "title": "INR‑logboek & trends",
+      "desc": "Registreer INR‑metingen en bekijk trends binnen je streefwaarde."
+    },
+    "i4": {
+      "title": "Flexibele dosering",
+      "desc": "Vast, afwisselend of wekelijkse aanvulling met handmatige aanpassingen."
+    },
+    "i5": {
+      "title": "Exporteren wanneer nodig",
+      "desc": "Maak PDF/CSV‑overzichten voor je zorgteam."
+    },
+    "i6": {
+      "title": "Gezondheidsapp (optioneel)",
+      "desc": "Integratie met HealthKit indien gewenst — met expliciete toestemming."
+    }
+  },
+  "footer": {
+    "copy": "© {{year}} oddfruit —"
+  },
+  "privacy": {
+    "summary": {
+      "title": "Privacy in één oogopslag",
+      "data": "Door de ontwikkelaar verzamelde gegevens: Geen.",
+      "accounts": "Accounts/Inloggen: Geen.",
+      "tracking": "Tracking/Advertenties: Geen.",
+      "analytics": "Analyse/Crashrapporten: Niets wordt verzonden (Apple kan geaggregeerde diagnostiek leveren bij toestemming).",
+      "storage": "Waar je gegevens staan: Op je apparaat. iCloud/Gezondheid vallen onder Apple‑beleid.",
+      "notifications": "Meldingen: Alleen lokale herinneringen op het apparaat. Geen remote push of tokens.",
+      "note": "Deze vertaling is voor het gemak. De officiële versie staat hieronder in het Engels."
+    },
+    "download_pdf": "Beleid als PDF downloaden"
+  }
+}

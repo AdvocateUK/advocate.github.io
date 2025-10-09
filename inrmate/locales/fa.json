@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "INR Mate"
+  },
+  "nav": {
+    "features": "Features",
+    "privacy": "Privacy",
+    "support": "Support"
+  },
+  "hero": {
+    "kicker": "Private by design",
+    "title": "Track INR & manage warfarin dosing — on your device.",
+    "lead": "INR Mate keeps your data on your iPhone. No accounts, no cloud sync, and no tracking. Set local reminders, log INR results, and export PDF/CSV when you need to share."
+  },
+  "cta": {
+    "app_store": "App Store (coming soon)",
+    "privacy": "Read the Privacy Policy"
+  },
+  "note": {
+    "contact": "Questions? Email support@oddfruit.dev"
+  },
+  "features": {
+    "kicker": "Features",
+    "i1": {
+      "title": "On‑device privacy",
+      "desc": "Everything stays on your iPhone. We don’t collect your data."
+    },
+    "i2": {
+      "title": "Local reminders",
+      "desc": "Schedule dose reminders with iOS notifications — no push, no accounts."
+    },
+    "i3": {
+      "title": "INR logging & trends",
+      "desc": "Record INR readings and see trends over time with your target range."
+    },
+    "i4": {
+      "title": "Flexible dosing",
+      "desc": "Fixed, alternating, or weekly top‑up schedules with manual overrides."
+    },
+    "i5": {
+      "title": "Export when needed",
+      "desc": "Create PDF/CSV summaries to share with your care team."
+    },
+    "i6": {
+      "title": "Health app (optional)",
+      "desc": "Integrate with HealthKit if you choose — with explicit permissions."
+    }
+  },
+  "footer": {
+    "copy": "© {{year}} oddfruit —"
+  },
+  "privacy": {
+    "summary": {
+      "title": "Privacy at a glance",
+      "data": "Data collected by the developer: None.",
+      "accounts": "Accounts/Logins: None.",
+      "tracking": "Tracking/Advertising: None.",
+      "analytics": "Analytics/Crash reporting: None sent to us (Apple may provide aggregated diagnostics if you’ve opted in).",
+      "storage": "Where your data lives: On your device. iCloud/Health are governed by Apple’s policies.",
+      "notifications": "Notifications: Local (on‑device) reminders only. No remote push, no device tokens.",
+      "note": "This translation is for convenience only. The English policy below is the official version."
+    },
+    "download_pdf": "Download the policy as PDF"
+  }
+}

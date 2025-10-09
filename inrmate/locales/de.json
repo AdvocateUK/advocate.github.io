@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "INR Mate"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "privacy": "Datenschutz",
+    "support": "Support"
+  },
+  "hero": {
+    "kicker": "Datenschutz durch Design",
+    "title": "INR verfolgen & Warfarin‑Dosierung verwalten — auf deinem Gerät.",
+    "lead": "INR Mate speichert deine Daten auf deinem iPhone. Keine Konten, keine Cloud‑Synchronisierung und kein Tracking. Richte lokale Erinnerungen ein, protokolliere INR‑Werte und exportiere bei Bedarf PDF/CSV."
+  },
+  "cta": {
+    "app_store": "App Store (bald)",
+    "privacy": "Datenschutzerklärung lesen"
+  },
+  "note": {
+    "contact": "Fragen? Schreib an support@oddfruit.dev"
+  },
+  "features": {
+    "kicker": "Funktionen",
+    "i1": {
+      "title": "Datenschutz auf dem Gerät",
+      "desc": "Alles bleibt auf deinem iPhone. Wir sammeln keine Daten."
+    },
+    "i2": {
+      "title": "Lokale Erinnerungen",
+      "desc": "Dosis‑Erinnerungen über iOS‑Mitteilungen — kein Push, keine Konten."
+    },
+    "i3": {
+      "title": "INR‑Protokoll & Trends",
+      "desc": "INR‑Messungen aufzeichnen und Trends im Zielbereich sehen."
+    },
+    "i4": {
+      "title": "Flexible Dosierung",
+      "desc": "Fix, abwechselnd oder wöchentliche Aufstockung mit manuellen Änderungen."
+    },
+    "i5": {
+      "title": "Export bei Bedarf",
+      "desc": "Erstelle PDF/CSV‑Zusammenfassungen für dein Behandlungsteam."
+    },
+    "i6": {
+      "title": "Health‑App (optional)",
+      "desc": "Integration mit HealthKit, wenn du es wünschst — mit expliziten Berechtigungen."
+    }
+  },
+  "footer": {
+    "copy": "© {{year}} oddfruit —"
+  },
+  "privacy": {
+    "summary": {
+      "title": "Datenschutz auf einen Blick",
+      "data": "Vom Entwickler erhobene Daten: Keine.",
+      "accounts": "Konten/Anmeldung: Keine.",
+      "tracking": "Tracking/Werbung: Keins.",
+      "analytics": "Analyse/Absturzberichte: Nichts wird gesendet (Apple kann aggregierte Diagnosen liefern, falls zugestimmt).",
+      "storage": "Wo deine Daten leben: Auf deinem Gerät. iCloud/Health unterliegen den Apple‑Richtlinien.",
+      "notifications": "Mitteilungen: Nur lokale Erinnerungen auf dem Gerät. Kein Remote‑Push, keine Gerätetokens.",
+      "note": "Diese Übersetzung dient nur zur Orientierung. Verbindlich ist die englische Fassung unten."
+    },
+    "download_pdf": "Richtlinie als PDF herunterladen"
+  }
+}

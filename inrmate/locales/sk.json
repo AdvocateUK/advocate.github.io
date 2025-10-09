@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "INR Mate"
+  },
+  "nav": {
+    "features": "Funkcie",
+    "privacy": "Súkromie",
+    "support": "Podpora"
+  },
+  "hero": {
+    "kicker": "Súkromie podľa návrhu",
+    "title": "Sledujte INR a spravujte dávkovanie warfarínu — vo svojom zariadení.",
+    "lead": "INR Mate uchováva vaše údaje vo vašom iPhone. Bez účtov, bez cloudovej synchronizácie a bez sledovania. Nastavte miestne pripomienky, zapisujte výsledky INR a exportujte PDF/CSV, keď ich potrebujete zdieľať."
+  },
+  "cta": {
+    "app_store": "App Store (čoskoro)",
+    "privacy": "Prečítať zásady ochrany súkromia"
+  },
+  "note": {
+    "contact": "Otázky? support@oddfruit.dev"
+  },
+  "features": {
+    "kicker": "Funkcie",
+    "i1": {
+      "title": "Súkromie v zariadení",
+      "desc": "Všetko zostáva vo vašom iPhone. Vaše údaje nezhromažďujeme."
+    },
+    "i2": {
+      "title": "Miestne pripomienky",
+      "desc": "Pripomienky dávok cez upozornenia iOS — bez push a bez účtov."
+    },
+    "i3": {
+      "title": "Záznam INR a trendy",
+      "desc": "Zaznamenávajte INR a sledujte trendy v cieľovom rozsahu."
+    },
+    "i4": {
+      "title": "Flexibilné dávkovanie",
+      "desc": "Pevné, striedavé alebo týždenné doplnenie s manuálnymi zmenami."
+    },
+    "i5": {
+      "title": "Export podľa potreby",
+      "desc": "Vytvárajte PDF/CSV pre zdieľanie s vaším tímom."
+    },
+    "i6": {
+      "title": "Aplikácia Zdravie (voliteľné)",
+      "desc": "Integrácia s HealthKit podľa výberu — s výslovnými oprávneniami."
+    }
+  },
+  "footer": {
+    "copy": "© {{year}} oddfruit —"
+  },
+  "privacy": {
+    "summary": {
+      "title": "Súkromie v skratke",
+      "data": "Údaje zhromažďované vývojárom: Žiadne.",
+      "accounts": "Účty/Prihlásenie: Žiadne.",
+      "tracking": "Sledovanie/Reklama: Žiadne.",
+      "analytics": "Analytika/Hlásenia pádov: Nič neposielame (Apple môže poskytovať agregovanú diagnostiku so súhlasom).",
+      "storage": "Kde sú údaje: Vo vašom zariadení. iCloud/Zdravie podliehajú zásadám Apple.",
+      "notifications": "Upozornenia: Len miestne pripomienky v zariadení. Žiadny vzdialený push ani tokeny.",
+      "note": "Tento preklad je len informačný. Záväzná je anglická verzia nižšie."
+    },
+    "download_pdf": "Stiahnuť zásady vo forme PDF"
+  }
+}
