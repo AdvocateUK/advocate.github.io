@@ -3,22 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>INR Mate — by oddfruit</title>
-  <meta name="description" content="INR Mate helps people taking warfarin track INR results, dose records, reminders, trends and exports across Apple devices.">
-  <meta name="theme-color" content="#111827">
+  <title>INR Mate — Warfarin & INR tracking</title>
+  <meta name="description" content="INR Mate helps people taking warfarin keep INR readings, dose records, reminders, trends and exports organised across Apple devices.">
+  <meta name="theme-color" content="#f7f3e8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/inrmate.css">
 </head>
 <body>
-  <div class="site-glow" aria-hidden="true"></div>
   <div class="container">
-    <header class="header glass-panel">
+    <header class="header">
       <a class="brand" href="/">
         <span class="logo" aria-hidden="true"></span>
-        <span>INR Mate</span>
+        <span>INR Mate <span style="color:var(--muted);font-weight:800">by oddfruit</span></span>
       </a>
-      <nav class="nav" aria-label="Primary navigation">
+      <nav class="nav" aria-label="Main navigation">
         <a href="#features">Features</a>
-        <a href="#pro">Free &amp; Pro</a>
+        <a href="#pro">Free & Pro</a>
         <a href="privacy.html">Privacy</a>
         <a href="mailto:support@oddfruit.co.uk">Support</a>
       </nav>
@@ -26,198 +28,107 @@
 
     <main>
       <section class="hero">
-        <div class="hero-copy">
-          <span class="kicker">Warfarin &amp; INR tracking</span>
-          <h1>Keep your INR and warfarin records together.</h1>
-          <p class="lead">
-            INR Mate helps people taking warfarin record INR readings, log doses, set reminders,
-            review trends and keep useful records for appointments.
-          </p>
-          <div class="hero-pills" aria-label="Key app support">
-            <span>iPhone</span>
-            <span>iPad</span>
-            <span>Apple Watch</span>
-            <span>Widgets</span>
-          </div>
+        <div>
+          <span class="eyebrow">Warfarin & INR tracker</span>
+          <h1>Keep your INR life in <span class="mark">range.</span></h1>
+          <p class="lead">INR Mate helps people taking warfarin record INR results, log doses, set reminders and review trends in a calm, readable app for iPhone, iPad and Apple Watch.</p>
           <div class="cta">
-            <a class="badge" href="#" aria-disabled="true">App Store — coming soon</a>
-            <a class="btn" href="privacy.html">Read the Privacy Policy</a>
+            <a class="button primary" href="#" aria-disabled="true">App Store coming soon</a>
+            <a class="button secondary" href="privacy.html">Read the privacy policy</a>
           </div>
-          <p class="note">Questions? Email <a href="mailto:support@oddfruit.co.uk">support@oddfruit.co.uk</a></p>
-        </div>
-
-        <div class="device-card" aria-label="INR Mate app preview">
-          <div class="app-preview">
-            <div class="preview-topbar">
-              <img src="../assets/inrmate-icon.png" alt="INR Mate app icon" width="52" height="52">
-              <div>
-                <strong>INR Mate</strong>
-                <span>Pro</span>
-              </div>
-            </div>
-            <div class="yellow-card">
-              <span class="mini-label">Latest INR</span>
-              <strong>2.4</strong>
-              <small>Within target range</small>
-            </div>
-            <div class="preview-grid">
-              <div class="preview-tile">
-                <span>Today</span>
-                <strong>3 mg</strong>
-                <small>Warfarin dose</small>
-              </div>
-              <div class="preview-tile">
-                <span>Trend</span>
-                <strong>90 days</strong>
-                <small>INR history</small>
-              </div>
-            </div>
-            <div class="glass-nav" aria-hidden="true">
-              <span></span><span></span><span></span>
-            </div>
+          <p class="note">For tracking and record keeping only. INR Mate does not provide medical advice or dosing recommendations.</p>
+          <div class="hero-pills" aria-label="Key features">
+            <span class="pill"><strong>Free</strong> unlimited entry</span>
+            <span class="pill"><strong>Pro</strong> full history</span>
+            <span class="pill"><strong>iCloud</strong> sync with Pro</span>
+            <span class="pill"><strong>Watch</strong> widgets & complications</span>
           </div>
         </div>
-      </section>
-
-      <section class="safety-strip glass-panel" aria-label="Medical disclaimer">
-        <strong>Tracking only.</strong>
-        <span>INR Mate does not provide medical advice or dosing recommendations. Always follow your anticoagulation care team’s instructions.</span>
+        <div class="phone-stage" aria-hidden="true">
+          <div class="phone-glow"></div>
+          <div class="float-card inr"><small>Latest INR</small><strong>2.4</strong></div>
+          <div class="phone"><img src="../assets/screenshots/overview.jpeg" alt="INR Mate overview screen"></div>
+          <div class="float-card dose"><small>Today's dose</small><strong>5 mg</strong></div>
+        </div>
       </section>
 
       <section id="features" class="section">
-        <div class="section-heading">
-          <span class="kicker">Current features</span>
-          <h2>Built for everyday warfarin record keeping.</h2>
-          <p>Simple daily logging for free, with deeper history and Apple ecosystem extras in INR Mate Pro.</p>
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Built around daily warfarin routines</span>
+            <h2>Simple records, useful context.</h2>
+          </div>
+          <p class="section-copy">The app focuses on what people actually need between appointments: results, doses, reminders, trends and shareable records.</p>
         </div>
-
-        <div class="grid">
-          <article class="card feature">
-            <div class="icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5 12l4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <div>
-              <h3>INR logging</h3>
-              <p>Record INR results with dates and notes, then review your latest reading at a glance.</p>
-            </div>
-          </article>
-
-          <article class="card feature">
-            <div class="icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7 4h10M8 8h8M9 12h6M10 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </div>
-            <div>
-              <h3>Warfarin dose records</h3>
-              <p>Log daily doses, one-off doses and schedule changes without turning the app into a dosing adviser.</p>
-            </div>
-          </article>
-
-          <article class="card feature">
-            <div class="icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
-                <path d="M12 7v5l3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <div>
-              <h3>Reminders</h3>
-              <p>Set dose and INR test reminders using Apple’s notification system on your device.</p>
-            </div>
-          </article>
-
-          <article class="card feature">
-            <div class="icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 17l4-5 4 3 4-7 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <div>
-              <h3>Trends and insights</h3>
-              <p>INR Mate Pro unlocks charts, insights and TTR-style review tools based on your saved records.</p>
-            </div>
-          </article>
-
-          <article class="card feature">
-            <div class="icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6 3h8l4 4v14H6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                <path d="M14 3v5h5M9 13h6M9 17h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </div>
-            <div>
-              <h3>Clinic-ready exports</h3>
-              <p>With Pro, create CSV or PDF exports from your saved records when you need to share information.</p>
-            </div>
-          </article>
-
-          <article class="card feature">
-            <div class="icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8 5h8a3 3 0 013 3v8a3 3 0 01-3 3H8a3 3 0 01-3-3V8a3 3 0 013-3z" stroke="currentColor" stroke-width="2"/>
-                <path d="M9 12h6M12 9v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </div>
-            <div>
-              <h3>Apple devices</h3>
-              <p>Pro includes iCloud sync, the full iPad experience, Apple Watch support, widgets and complications.</p>
-            </div>
-          </article>
+        <div class="feature-grid">
+          <article class="feature green"><div class="icon-bubble">✓</div><h3>Log INR readings</h3><p>Record INR values with dates, times and notes. See whether readings are below, within or above your target range.</p></article>
+          <article class="feature"><div class="icon-bubble">＋</div><h3>Track warfarin doses</h3><p>Keep planned and taken anticoagulant doses together, including recent dose history and one-off dose records.</p></article>
+          <article class="feature green"><div class="icon-bubble">⌁</div><h3>Review trends</h3><p>INR Mate Pro unlocks full history, charts, TTR-style insights and export tools for appointments.</p></article>
+          <article class="feature"><div class="icon-bubble">☁</div><h3>Sync with iCloud</h3><p>With Pro, keep INR Mate in step across your Apple devices using your private iCloud account.</p></article>
+          <article class="feature"><div class="icon-bubble">⌚</div><h3>iPad, Watch and widgets</h3><p>Use the full iPad dashboard, glance at Apple Watch, and keep key information nearby with widgets and complications.</p></article>
+          <article class="feature green"><div class="icon-bubble">⇧</div><h3>Export when needed</h3><p>Create CSV, JSON or PDF exports from your saved records when you need to share information with your care team.</p></article>
         </div>
       </section>
 
-      <section id="pro" class="section split-section">
-        <div class="section-heading align-left">
-          <span class="kicker">Free &amp; Pro</span>
-          <h2>Start free. Unlock the archive when you need it.</h2>
-          <p>Free users can keep entering records. Pro unlocks full history, analysis and Apple ecosystem extras.</p>
+      <section class="section" aria-label="App screenshots">
+        <div class="app-strip">
+          <div class="shot"><img src="../assets/screenshots/results.png" alt="INR results screen"></div>
+          <div class="shot"><img src="../assets/screenshots/medications.jpeg" alt="Medications screen"></div>
+          <div class="shot"><img src="../assets/screenshots/insights.png" alt="Insights screen"></div>
+          <div class="shot"><img src="../assets/screenshots/settings.jpeg" alt="Settings screen"></div>
         </div>
-        <div class="plan-grid">
-          <article class="plan card">
-            <span class="plan-badge muted-badge">Free</span>
-            <h3>Everyday iPhone tracking</h3>
+      </section>
+
+      <section id="pro" class="section">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Free to start</span>
+            <h2>Upgrade when you want the whole picture.</h2>
+          </div>
+          <p class="section-copy">Free users can keep adding readings and doses. Pro unlocks the full saved archive, analysis and Apple ecosystem features.</p>
+        </div>
+        <div class="comparison">
+          <article class="plan">
+            <h3>Free</h3>
+            <p>A useful iPhone tracker for getting started.</p>
             <ul>
               <li>Add unlimited INR readings</li>
-              <li>Add unlimited warfarin dose logs</li>
-              <li>View your latest INR reading</li>
-              <li>View the last 7 days of dose history</li>
+              <li>Add unlimited warfarin dose records</li>
+              <li>View your latest INR</li>
+              <li>View the last 7 days of doses</li>
             </ul>
           </article>
-          <article class="plan card highlight-plan">
-            <span class="plan-badge">Pro</span>
-            <h3>Full history and Apple extras</h3>
+          <article class="plan pro">
+            <h3>INR Mate Pro</h3>
+            <p>Unlock your full history and the richer Apple-device experience.</p>
             <ul>
-              <li>Full INR and warfarin history</li>
-              <li>Trends, insights and exports</li>
-              <li>iCloud sync across Apple devices</li>
-              <li>iPad, Apple Watch, widgets and complications</li>
+              <li>Full INR and dose history</li>
+              <li>Trends, insights and TTR-style analysis</li>
+              <li>CSV, JSON and PDF exports</li>
+              <li>iCloud sync, iPad dashboard, Apple Watch and widgets</li>
             </ul>
           </article>
         </div>
       </section>
 
-      <section class="section privacy-callout glass-panel">
-        <div>
-          <span class="kicker">Privacy</span>
+      <section class="section trust">
+        <article class="yellow-panel">
+          <span class="eyebrow" style="color:rgba(6,20,58,.62)">Privacy first</span>
           <h2>Your records stay under your control.</h2>
-          <p>
-            INR Mate stores your data on your device and, if you enable Pro iCloud sync, through Apple’s iCloud services.
-            We do not sell your data or use your INR and warfarin records for advertising.
-          </p>
-        </div>
-        <a class="btn" href="privacy.html">Read the full policy</a>
+          <p>INR Mate stores records on your device and can sync through Apple iCloud if you enable Pro sync. We do not sell your personal data and do not use your health records for advertising.</p>
+          <a class="button secondary" href="privacy.html">Read the privacy policy</a>
+        </article>
+        <article class="disclaimer">
+          <h3>Important medical note</h3>
+          <p>INR Mate is for tracking and record keeping only. It does not provide medical advice, dosing recommendations, diagnosis, treatment advice or clinical decision support.</p>
+          <p>Always follow the advice of your anticoagulation clinic, GP, doctor, pharmacist, nurse or healthcare professional.</p>
+        </article>
       </section>
     </main>
 
     <footer class="footer">
-      <div>
-        <span>© 2026 oddfruit —</span>
-        <a href="privacy.html">Privacy</a> •
-        <a href="mailto:support@oddfruit.co.uk">Support</a>
-      </div>
+      <div>© 2026 oddfruit</div>
+      <div><a href="privacy.html">Privacy</a> · <a href="mailto:support@oddfruit.co.uk">support@oddfruit.co.uk</a></div>
     </footer>
   </div>
 </body>
