@@ -3,31 +3,95 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>oddfruit — we make apps</title>
-  <!-- Questrial for heading / logo -->
-  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>oddfruit — thoughtful apps for real life</title>
+  <meta name="description" content="oddfruit makes calm, useful apps for real-life routines. Home of INR Mate, a private INR and warfarin tracker for Apple devices.">
+  <meta name="theme-color" content="#fbf7ec">
+  <link rel="canonical" href="https://oddfruit.co.uk/">
+  <meta property="og:title" content="oddfruit — thoughtful apps for real life">
+  <meta property="og:description" content="Small, practical apps with a human pulse. Home of INR Mate.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://oddfruit.co.uk/">
+  <meta property="og:image" content="https://oddfruit.co.uk/assets/inrmate-icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <main class="container fade-in">
-    <header>
-      <h1 class="logo">oddfruit</h1>
-      <p class="tagline">we make apps</p>
-    </header>
+  <header class="home-nav">
+    <a class="wordmark" href="/" aria-label="oddfruit home">oddfruit</a>
+    <nav aria-label="Main navigation">
+      <a href="#apps">Apps</a>
+      <a href="#principles">Principles</a>
+      <a href="inrmate/">INR Mate</a>
+      <a href="mailto:support@oddfruit.co.uk">Contact</a>
+    </nav>
+  </header>
 
-    <section class="apps">
-      <a href="inrmate/" class="app-card">
+  <main>
+    <section class="home-hero fade-in">
+      <div class="hero-copy">
+        <p class="eyebrow">small apps · real routines · no nonsense</p>
+        <h1>Thoughtful apps for the bits of life that deserve better tools.</h1>
+        <p class="lead">oddfruit is a tiny independent studio making calm, practical Apple apps. The first release is INR Mate, built from lived experience of warfarin, clinical work and the desire for clearer everyday records.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="inrmate/">Explore INR Mate</a>
+          <a class="button ghost" href="#story">Why oddfruit exists</a>
+        </div>
+      </div>
+      <div class="orb-card" aria-hidden="true">
+        <div class="fruit-orb">of</div>
+        <p>serious apps, lightly held</p>
+      </div>
+    </section>
+
+    <section id="story" class="story-panel">
+      <div>
+        <p class="eyebrow">not a faceless app cupboard</p>
+        <h2>Built by a person, not a product committee.</h2>
+      </div>
+      <p>oddfruit exists to make software that feels useful, calm and human. No tracking theatre, no feature confetti, no pretending that every problem needs a dashboard shaped like a spaceship. Just carefully made apps that help people keep track of things that matter.</p>
+    </section>
+
+    <section id="apps" class="apps-section">
+      <div class="section-heading">
+        <p class="eyebrow">available now</p>
+        <h2>Our apps</h2>
+      </div>
+      <a href="inrmate/" class="app-card featured-card">
         <img src="assets/inrmate-icon.png" alt="INR Mate icon" class="app-icon" />
         <div class="app-info">
-          <h2>INR Mate</h2>
-          <p>Now available on the App Store. A calm warfarin and INR tracker for iPhone, iPad and Apple Watch.</p>
+          <span class="pill">iPhone · iPad · Apple Watch</span>
+          <h3>INR Mate</h3>
+          <p>A private INR and warfarin tracker for logging results, recording doses, setting reminders, reviewing trends and exporting appointment-ready records.</p>
+          <span class="text-link">Learn more →</span>
         </div>
       </a>
     </section>
 
-    <footer>
-      <p>© 2026 oddfruit</p>
-    </footer>
+    <section id="principles" class="principles-grid">
+      <article>
+        <span>01</span>
+        <h3>Privacy is the default</h3>
+        <p>Health records should not become someone else’s advertising fuel. INR Mate is designed around user-controlled records.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Clarity beats cleverness</h3>
+        <p>The best screen is the one that helps you understand what to do next, without making you squint at a digital tax return.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Built for ordinary days</h3>
+        <p>Real routines are messy. Our apps aim to be steady, readable and useful when life is not behaving like a brochure.</p>
+      </article>
+    </section>
   </main>
+
+  <footer class="home-footer">
+    <p>© 2026 oddfruit</p>
+    <div>
+      <a href="inrmate/privacy.html">Privacy</a>
+      <a href="mailto:support@oddfruit.co.uk">Support</a>
+    </div>
+  </footer>
 </body>
 </html>
