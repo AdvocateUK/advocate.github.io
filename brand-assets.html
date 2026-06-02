@@ -1,26 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>oddfruit brand assets</title>
-  <meta name="robots" content="noindex">
-  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#fbf7ec;color:#06143a;margin:0;padding:44px}main{max-width:1100px;margin:auto}h1{font-size:clamp(2.2rem,5vw,4.5rem);letter-spacing:-.06em;margin:0 0 12px}.lead{color:#66708a;font-size:1.1rem;line-height:1.6;max-width:760px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:30px}.card{background:#fff;border:1px solid rgba(6,20,58,.1);border-radius:24px;padding:20px;box-shadow:0 14px 38px rgba(6,20,58,.08)}.preview{height:190px;border-radius:18px;background:#f5f1e7;display:grid;place-items:center;padding:24px}.preview.dark{background:#0c0f0a}.preview img{max-width:100%;max-height:135px}.label{font-weight:800;margin:16px 0 8px}.links{display:flex;gap:10px;flex-wrap:wrap}.links a{color:#063b68;font-weight:700}code{background:#fff;padding:3px 7px;border-radius:8px}.note{margin-top:30px;color:#66708a;line-height:1.6}
+    :root { --ink:#06143a; --muted:#66708a; --paper:#fbf7ec; --card:#ffffff; --stroke:rgba(6,20,58,.12); }
+    * { box-sizing:border-box; }
+    body { margin:0; padding:48px; background:var(--paper); color:var(--ink); font-family:Manrope, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    h1 { margin:0 0 8px; font-size:clamp(2.4rem,6vw,5rem); letter-spacing:-.06em; line-height:.95; }
+    .lead { max-width:760px; color:var(--muted); font-size:1.08rem; line-height:1.65; margin:0 0 30px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:22px; max-width:1120px; }
+    .card { background:var(--card); border:1px solid var(--stroke); border-radius:24px; padding:22px; box-shadow:0 18px 50px rgba(6,20,58,.08); }
+    .preview { min-height:180px; display:grid; place-items:center; border-radius:18px; background:#f3eadb; padding:24px; }
+    .preview.dark { background:#06143a; }
+    .preview img { max-width:100%; max-height:150px; height:auto; }
+    .label { font-weight:900; margin:16px 0 10px; }
+    .links { display:flex; flex-wrap:wrap; gap:10px; }
+    a { color:inherit; font-weight:800; }
+    .note { max-width:760px; color:var(--muted); line-height:1.6; margin-top:30px; }
   </style>
 </head>
-<body><main>
+<body>
   <h1>oddfruit brand assets</h1>
-  <p class="lead">Bitmap logo pack based on the selected Option 5 Open Orbit reference. These are PNG assets only, ready to use on the website until a final vector/SVG version is created.</p>
-  <section class="grid">
-    <article class="card"><div class="preview"><img src="assets/brand/oddfruit-logo-horizontal-1200.png" alt="oddfruit horizontal logo"></div><div class="label">Horizontal logo</div><div class="links"><a href="assets/brand/oddfruit-logo-horizontal.png">PNG original</a><a href="assets/brand/oddfruit-logo-horizontal-600.png">600</a><a href="assets/brand/oddfruit-logo-horizontal-1200.png">1200</a><a href="assets/brand/oddfruit-logo-horizontal-1800.png">1800</a></div></article>
-    <article class="card"><div class="preview dark"><img src="assets/brand/oddfruit-logo-horizontal-white-1200.png" alt="oddfruit horizontal logo white"></div><div class="label">Horizontal logo, dark backgrounds</div><div class="links"><a href="assets/brand/oddfruit-logo-horizontal-white.png">PNG original</a><a href="assets/brand/oddfruit-logo-horizontal-white-1200.png">1200</a></div></article>
-    <article class="card"><div class="preview"><img src="assets/brand/oddfruit-mark-open-orbit-512.png" alt="oddfruit mark"></div><div class="label">Standalone mark</div><div class="links"><a href="assets/brand/oddfruit-mark-open-orbit.png">Original</a><a href="assets/brand/oddfruit-mark-open-orbit-1024.png">1024</a><a href="assets/brand/oddfruit-mark-open-orbit-512.png">512</a><a href="assets/brand/oddfruit-mark-open-orbit-128.png">128</a></div></article>
-    <article class="card"><div class="preview dark"><img src="assets/brand/oddfruit-mark-open-orbit-white.png" alt="oddfruit mark white"></div><div class="label">Standalone mark, dark backgrounds</div><div class="links"><a href="assets/brand/oddfruit-mark-open-orbit-white.png">PNG</a></div></article>
-    <article class="card"><div class="preview"><img src="assets/brand/oddfruit-round-badge-512.png" alt="oddfruit round badge"></div><div class="label">Round badge</div><div class="links"><a href="assets/brand/oddfruit-round-badge-512.png">512</a><a href="assets/brand/oddfruit-round-badge-1024.png">1024</a><a href="assets/brand/oddfruit-round-badge-dark-1024.png">dark</a></div></article>
-    <article class="card"><div class="preview"><img src="assets/brand/oddfruit-rectangular-badge-1120.png" alt="oddfruit rectangular badge"></div><div class="label">Rectangular badge</div><div class="links"><a href="assets/brand/oddfruit-rectangular-badge-1120.png">light</a><a href="assets/brand/oddfruit-rectangular-badge-dark-1120.png">dark</a></div></article>
-  </section>
-  <p class="note">Primary colour values from the bitmap: near-black wordmark, warm orange orbit. Use the horizontal logo for headers, standalone mark for favicon/avatar, and badges for social/profile contexts.</p>
-</main></body></html>
+  <p class="lead">SVG logo pack using the supplied oddfruit artwork. Use the horizontal logo for headers, the standalone mark for favicons and compact spaces, and the white variants on dark backgrounds.</p>
+  <main class="grid">
+    <article class="card"><div class="preview"><img src="assets/brand/oddfruit-logo.svg" alt="oddfruit horizontal logo"></div><div class="label">Horizontal logo</div><div class="links"><a href="assets/brand/oddfruit-logo.svg">SVG</a></div></article>
+    <article class="card"><div class="preview dark"><img src="assets/brand/oddfruit-logo-white.svg" alt="oddfruit horizontal logo white"></div><div class="label">Horizontal logo, dark backgrounds</div><div class="links"><a href="assets/brand/oddfruit-logo-white.svg">SVG</a></div></article>
+    <article class="card"><div class="preview"><img src="assets/brand/oddfruit-mark.svg" alt="oddfruit mark"></div><div class="label">Standalone mark</div><div class="links"><a href="assets/brand/oddfruit-mark.svg">SVG</a></div></article>
+    <article class="card"><div class="preview dark"><img src="assets/brand/oddfruit-mark-white.svg" alt="oddfruit mark white"></div><div class="label">Standalone mark, dark backgrounds</div><div class="links"><a href="assets/brand/oddfruit-mark-white.svg">SVG</a></div></article>
+    <article class="card"><div class="preview dark"><img src="assets/brand/oddfruit-mark-white-outline.svg" alt="oddfruit mark white outline"></div><div class="label">Standalone mark, outlined white</div><div class="links"><a href="assets/brand/oddfruit-mark-white-outline.svg">SVG</a></div></article>
+  </main>
+  <p class="note">PNG favicon and Apple touch icon files are retained for compatibility, but the visible website logo assets now use SVG.</p>
+</body>
+</html>

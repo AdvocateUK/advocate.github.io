@@ -31,7 +31,7 @@ a { color: inherit; }
 .home-nav {
   width: var(--page);
   margin: 0 auto;
-  min-height: 82px;
+  min-height: 128px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,13 +39,22 @@ a { color: inherit; }
 }
 .wordmark {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-end;
+  gap: 6px;
   text-decoration: none;
 }
 .wordmark img {
   display: block;
-  width: clamp(176px, 22vw, 260px);
   height: auto;
+}
+.wordmark-mark {
+  width: clamp(128px, 13vw, 176px);
+  flex: 0 0 auto;
+  margin-bottom: -10px;
+}
+.wordmark-text {
+  width: clamp(154px, 17vw, 220px);
+  margin-bottom: 10px;
 }
 .home-nav nav { display: flex; gap: 20px; flex-wrap: wrap; color: var(--muted); font-weight: 800; font-size: .94rem; }
 .home-nav nav a { text-decoration: none; }
@@ -85,11 +94,11 @@ h1 {
   display: grid;
   place-items: center;
   text-align: center;
-  padding: 42px;
+  padding: 28px;
   transform: rotate(2deg);
 }
 .orbit-hero-logo {
-  width: min(220px, 62%);
+  width: min(330px, 82%);
   height: auto;
   filter: drop-shadow(0 20px 34px rgba(0,0,0,.24));
 }
