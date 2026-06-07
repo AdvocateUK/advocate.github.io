@@ -223,8 +223,7 @@ h1 {
   }
 }
 
-
-/* oddfruit shared footer - scoped so it cannot affect page content */
+/* FINAL: safe shared footer */
 .oddf-shared-footer {
   width: var(--page);
   margin: clamp(3rem, 7vw, 6rem) auto 0;
@@ -294,29 +293,9 @@ h1 {
   color: var(--ink);
 }
 
-@media (max-width: 820px) {
-  .oddf-shared-footer {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .oddf-shared-footer__nav {
-    justify-content: flex-start;
-  }
-}
-
-@media (max-width: 520px) {
-  .oddf-shared-footer__mark {
-    width: 58px;
-  }
-
-  .oddf-shared-footer__text {
-    width: 112px;
-  }
-}
 
 
-/* Shared oddfruit header logo sizing only */
+/* FINAL: shared header sizing and mobile navigation */
 .home-nav .wordmark-mark {
   width: clamp(128px, 13vw, 176px);
   height: auto;
@@ -331,6 +310,37 @@ h1 {
 }
 
 @media (max-width: 820px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  img,
+  svg,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .home-nav {
+    width: var(--page);
+    min-height: auto;
+    padding: 18px 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .home-nav .wordmark {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 5px;
+    text-decoration: none;
+    line-height: 1;
+  }
+
   .home-nav .wordmark-mark {
     width: 96px;
     margin-bottom: -7px;
@@ -339,6 +349,31 @@ h1 {
   .home-nav .wordmark-text {
     width: 146px;
     margin-bottom: 7px;
+  }
+
+  .home-nav nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 14px;
+    font-size: .86rem;
+    line-height: 1.25;
+  }
+
+  .home-nav nav a {
+    white-space: nowrap;
+  }
+
+  .oddf-shared-footer {
+    width: var(--page);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .oddf-shared-footer__nav {
+    justify-content: flex-start;
   }
 }
 
@@ -352,3 +387,50 @@ h1 {
   }
 }
 
+
+
+/* FINAL: mobile layout fixes for oddfruit pages */
+@media (max-width: 820px) {
+  :root {
+    --page: min(100% - 28px, 1120px);
+  }
+
+  .home-hero,
+  .story-panel,
+  .principles-grid,
+  .app-card,
+  .news-post.story-panel {
+    grid-template-columns: 1fr !important;
+  }
+
+  .home-hero {
+    min-height: auto;
+    padding-top: 32px;
+    gap: 32px;
+  }
+
+  .story-panel,
+  .app-card {
+    padding: 24px;
+    border-radius: 28px;
+  }
+
+  .orb-card {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .orbit-hero-logo {
+    width: min(260px, 78%);
+  }
+
+  .news-post-image {
+    max-width: 150px;
+    justify-self: start;
+  }
+
+  .news-post-icon {
+    max-width: 96px;
+  }
+}

@@ -473,8 +473,7 @@ blockquote { max-width: 820px; margin: 0 auto 24px; font-size: 1.35rem; line-hei
   line-height: 1.85;
 }
 
-
-/* oddfruit shared footer - scoped so it cannot affect page content */
+/* FINAL: safe shared footer */
 .oddf-shared-footer {
   width: var(--page);
   margin: clamp(3rem, 7vw, 6rem) auto 0;
@@ -544,29 +543,9 @@ blockquote { max-width: 820px; margin: 0 auto 24px; font-size: 1.35rem; line-hei
   color: var(--ink);
 }
 
-@media (max-width: 820px) {
-  .oddf-shared-footer {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .oddf-shared-footer__nav {
-    justify-content: flex-start;
-  }
-}
-
-@media (max-width: 520px) {
-  .oddf-shared-footer__mark {
-    width: 58px;
-  }
-
-  .oddf-shared-footer__text {
-    width: 112px;
-  }
-}
 
 
-/* Shared oddfruit header logo sizing only */
+/* FINAL: shared header sizing and mobile navigation */
 .home-nav .wordmark-mark {
   width: clamp(128px, 13vw, 176px);
   height: auto;
@@ -581,6 +560,37 @@ blockquote { max-width: 820px; margin: 0 auto 24px; font-size: 1.35rem; line-hei
 }
 
 @media (max-width: 820px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  img,
+  svg,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .home-nav {
+    width: var(--page);
+    min-height: auto;
+    padding: 18px 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .home-nav .wordmark {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 5px;
+    text-decoration: none;
+    line-height: 1;
+  }
+
   .home-nav .wordmark-mark {
     width: 96px;
     margin-bottom: -7px;
@@ -589,6 +599,31 @@ blockquote { max-width: 820px; margin: 0 auto 24px; font-size: 1.35rem; line-hei
   .home-nav .wordmark-text {
     width: 146px;
     margin-bottom: 7px;
+  }
+
+  .home-nav nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 14px;
+    font-size: .86rem;
+    line-height: 1.25;
+  }
+
+  .home-nav nav a {
+    white-space: nowrap;
+  }
+
+  .oddf-shared-footer {
+    width: var(--page);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .oddf-shared-footer__nav {
+    justify-content: flex-start;
   }
 }
 
@@ -602,3 +637,156 @@ blockquote { max-width: 820px; margin: 0 auto 24px; font-size: 1.35rem; line-hei
   }
 }
 
+
+
+/* FINAL: mobile layout fixes for INR Mate pages */
+@media (max-width: 820px) {
+  :root {
+    --page: min(100% - 28px, 1180px);
+  }
+
+  .section-pad,
+  .compact {
+    width: var(--page);
+    padding: 56px 0;
+  }
+
+  .hero,
+  .founder-panel,
+  .deep-panel,
+  .adherence,
+  .resource-library,
+  .download-panel {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero {
+    min-height: auto;
+    gap: 34px;
+    padding-top: 36px;
+  }
+
+  .hero-copy,
+  .resource-hero,
+  .founder-copy,
+  .founder-note,
+  .long-card,
+  .privacy-article,
+  .download-panel,
+  .deep-panel {
+    min-width: 0;
+  }
+
+  .hero-device {
+    order: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .device-card {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 22px;
+  }
+
+  .phone-frame,
+  .hero-phone {
+    width: min(100%, 240px);
+    min-width: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .phone-frame img,
+  .device-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .glance-grid,
+  .feature-cards,
+  .summary-list {
+    grid-template-columns: 1fr !important;
+  }
+
+  .split,
+  .split.reverse {
+    grid-template-columns: 1fr !important;
+  }
+
+  .media-square {
+    max-height: none;
+    min-height: 220px;
+  }
+
+  .screenshot-row {
+    display: flex;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 16px;
+    padding-bottom: 16px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .phone-frame.small {
+    width: 220px;
+    min-width: 220px;
+    scroll-snap-align: center;
+  }
+
+  .phone-frame.small:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .founder-copy,
+  .founder-note,
+  .long-card,
+  .privacy-article,
+  .download-panel,
+  .deep-panel {
+    padding: 26px;
+    border-radius: 28px;
+  }
+
+  .resource-hero h1,
+  .founder-copy h2,
+  .hero h1 {
+    font-size: clamp(2.7rem, 13vw, 4.3rem);
+    word-break: normal;
+  }
+
+  .hero-actions,
+  .download-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .app-store-badge {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 430px) {
+  .phone-frame,
+  .hero-phone {
+    width: min(100%, 220px);
+  }
+
+  .phone-frame.small {
+    width: 205px;
+    min-width: 205px;
+  }
+
+  .device-card,
+  .founder-copy,
+  .founder-note,
+  .long-card,
+  .privacy-article,
+  .download-panel,
+  .deep-panel {
+    padding: 22px;
+  }
+}
