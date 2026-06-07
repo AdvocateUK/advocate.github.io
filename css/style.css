@@ -281,100 +281,94 @@ h1 {
   color: var(--ink);
 }
 
-/* Unified oddfruit footer */
-.site-footer {
+
+/* oddfruit shared footer - deliberately scoped to avoid page layout conflicts */
+.oddf-footer {
   width: var(--page);
   margin: clamp(3rem, 7vw, 6rem) auto 0;
-  padding: 30px 0 38px;
+  padding: 28px 0 36px;
   border-top: 1px solid var(--stroke);
-}
-
-.site-footer-inner {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 24px;
 }
 
-.footer-wordmark {
-  display: inline-flex;
-  align-items: flex-end;
-  gap: 0.35rem;
-  text-decoration: none;
-  line-height: 1;
-  flex: 0 0 auto;
+.oddf-footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 220px;
 }
 
-.footer-wordmark-mark {
+.oddf-footer-wordmark {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 5px;
+  text-decoration: none;
+  line-height: 1;
+  width: fit-content;
+}
+
+.oddf-footer-mark {
   width: 72px;
   height: auto;
   display: block;
   margin-bottom: -5px;
 }
 
-.footer-wordmark-text {
+.oddf-footer-text {
   width: 132px;
   height: auto;
   display: block;
   margin-bottom: 5px;
 }
 
-.site-footer .footer-links {
+.oddf-footer-brand p {
+  margin: 0;
+  max-width: 420px;
+  color: var(--muted);
+  font-size: .9rem;
+  font-weight: 650;
+  line-height: 1.55;
+}
+
+.oddf-footer-nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  gap: 14px 20px;
+  gap: 12px 20px;
   color: var(--muted);
   font-weight: 800;
   font-size: .92rem;
 }
 
-.site-footer .footer-links a {
+.oddf-footer-nav a {
   text-decoration: none;
 }
 
-.site-footer .footer-links a:hover {
+.oddf-footer-nav a:hover {
   color: var(--ink);
 }
 
-.site-footer-note {
-  margin: 22px 0 0;
-  color: var(--muted);
-  font-size: .9rem;
-  font-weight: 650;
-}
-
 @media (max-width: 820px) {
-  .site-header,
-  .site-footer-inner {
+  .oddf-footer {
     align-items: flex-start;
     flex-direction: column;
-    gap: 14px;
   }
 
-  .site-header nav,
-  .site-footer .footer-links {
+  .oddf-footer-nav {
     justify-content: flex-start;
   }
 }
 
 @media (max-width: 520px) {
-  .site-wordmark-mark {
-    width: 86px;
-    margin-bottom: -7px;
-  }
-
-  .site-wordmark-text {
-    width: 132px;
-    margin-bottom: 7px;
-  }
-
-  .footer-wordmark-mark {
+  .oddf-footer-mark {
     width: 58px;
   }
 
-  .footer-wordmark-text {
+  .oddf-footer-text {
     width: 112px;
   }
 }
