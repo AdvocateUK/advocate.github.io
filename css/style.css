@@ -59,6 +59,8 @@ a { color: inherit; }
 .home-nav nav { display: flex; gap: 20px; flex-wrap: wrap; color: var(--muted); font-weight: 800; font-size: .94rem; }
 .home-nav nav a { text-decoration: none; }
 .home-nav nav a:hover { color: var(--ink); }
+.home-nav nav a.active { color: var(--ink); }
+.home-nav .nav-cta { background: var(--yellow); color: var(--ink) !important; padding: 10px 18px; border-radius: 12px; box-shadow: 0 8px 18px rgba(255, 212, 0, .22); }
 
 .home-hero {
   width: var(--page);
@@ -165,4 +167,46 @@ h1 {
   .app-card { grid-template-columns: 1fr; }
   .app-icon { width: 92px; height: 92px; }
   .home-footer { display: block; padding: 28px 0; }
+}
+
+
+/* News posts */
+.news-post {
+  display: grid;
+  grid-template-columns: minmax(88px, 150px) 1fr;
+  gap: clamp(1.25rem, 3vw, 2rem);
+  align-items: start;
+}
+
+.news-post-image {
+  width: 100%;
+  border-radius: 18px;
+  object-fit: contain;
+  box-shadow: 0 18px 42px rgba(33, 24, 20, 0.16);
+}
+
+.news-post-icon {
+  max-width: 132px;
+  justify-self: center;
+  border-radius: 28%;
+}
+
+.news-post-content {
+  min-width: 0;
+}
+
+@media (max-width: 720px) {
+  .news-post {
+    grid-template-columns: 1fr;
+  }
+
+  .news-post-icon {
+    justify-self: start;
+    width: 96px;
+  }
+}
+
+
+.news-post + .news-post {
+  margin-top: clamp(2rem, 5vw, 4rem);
 }
