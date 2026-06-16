@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>oddfruit News</title>
+    <link>https://oddfruit.co.uk/news/</link>
+    <description>Development updates, release notes and INR Mate news from oddfruit.</description>
+    <language>en-gb</language>
+    <item>
+      <title>INR Mate v1.2 adds Siri and Shortcuts support</title>
+      <link>https://oddfruit.co.uk/news/inr-mate-v12-siri-shortcuts.html</link>
+      <guid>https://oddfruit.co.uk/news/inr-mate-v12-siri-shortcuts.html</guid>
+      <pubDate>Fri, 12 Jun 2026 09:00:00 +0100</pubDate>
+      <description>INR Mate v1.2 adds Siri and Shortcuts support for quicker INR and warfarin logging.</description>
+    </item>
+    <item>
+      <title>INR Mate v1.1 adds Comfort Mode, clinic visit PDFs and smoother sync</title>
+      <link>https://oddfruit.co.uk/news/inr-mate-v11-comfort-mode-clinic-pdfs.html</link>
+      <guid>https://oddfruit.co.uk/news/inr-mate-v11-comfort-mode-clinic-pdfs.html</guid>
+      <pubDate>Sat, 30 May 2026 09:00:00 +0100</pubDate>
+      <description>INR Mate v1.1 adds Comfort Mode, clinic visit PDFs and smoother sync across devices.</description>
+    </item>
+    <item>
+      <title>INR Mate launches on the App Store</title>
+      <link>https://oddfruit.co.uk/news/inr-mate-launches.html</link>
+      <guid>https://oddfruit.co.uk/news/inr-mate-launches.html</guid>
+      <pubDate>Thu, 21 May 2026 09:00:00 +0100</pubDate>
+      <description>INR Mate launches on the App Store as a private INR and warfarin tracker for Apple devices.</description>
+    </item>
+  </channel>
+</rss>
